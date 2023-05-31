@@ -47,4 +47,4 @@ const DatasetEntitySchema: OpenAPIV3_1.SchemaObject = {
   },
 };
 
-export default HealthSchema;
+export default DatasetEntitySchema;
