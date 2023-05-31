@@ -1,6 +1,6 @@
 import type { OpenAPIV3_1 } from "openapi-types";
 
-const HealthSchema: OpenAPIV3_1.SchemaObject = {
+const DatasetEntitySchema: OpenAPIV3_1.SchemaObject = {
   title: "Dataset Entity Schema",
   allOf: [{ $ref: "#/components/schemas/BaseEntitySchema" }],
   properties: {
