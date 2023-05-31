@@ -1,4 +1,4 @@
-# Codr Project Serivce
+# Codr Dataset Serivce
 
 [![CodeQL](https://github.com/CodrJS/codr-project-dataset/actions/workflows/codeql.yml/badge.svg)](https://github.com/CodrJS/codr-project-dataset/actions/workflows/codeql.yml)
 [![Docker Image CI](https://github.com/CodrJS/codr-project-dataset/actions/workflows/docker-image.yml/badge.svg)](https://github.com/CodrJS/codr-project-dataset/actions/workflows/docker-image.yml)
@@ -44,7 +44,7 @@ Environment variables provided by CI/CD
 | Env var           | Location           | Description                                               |
 | ----------------- | ------------------ | --------------------------------------------------------- |
 | `HOSTNAME`        | `hostname`         | Deployment docker hostname                                |
-| Provided via npm  | `name`             | Deployment service name - example: codr-project-dataset         |
+| Provided via npm  | `name`             | Deployment service name - example: codr-project-dataset   |
 | Provided via npm  | `version`          | Deployment version - example: `1.0.0`                     |
 | `GIT_BRANCH`      | `git.brach`        | Git - branch                                              |
 | `GIT_COMMIT`      | `git.commit`       | Git - commit sha                                          |
