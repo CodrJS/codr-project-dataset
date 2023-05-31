@@ -1,4 +1,5 @@
 export { default as BaseEntitySchema } from "./BaseEntity";
+export { default as DatasetEntitySchema } from "./DatasetEntity";
 export { default as ErrorSchema } from "./Error";
 export { default as GenericSchema } from "./Generic";
 export { default as HealthSchema } from "./Health";

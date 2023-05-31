@@ -13,6 +13,7 @@ import {
 } from "@dylanbulmer/openapi/classes/responses";
 import {
   BaseEntitySchema,
+  DatasetEntitySchema,
   ErrorSchema,
   GenericSchema,
   HealthSchema,
@@ -63,6 +64,7 @@ const settings: OpenAPIV3_1.Document = {
     },
     schemas: {
       BaseEntitySchema,
+      DatasetEntitySchema,
       ErrorSchema,
       GenericSchema,
       HealthSchema,
